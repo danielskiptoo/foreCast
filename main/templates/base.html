@@ -1,0 +1,28 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Foreacast{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/custom.css' %}">
+</head>
+<body>
+
+{% block body %}
+{% if messages %}
+    <div class="container-fluid mt-3">
+        {% include 'bootstrap4/messages.html' %}
+    </div>
+{% endif %}
+
+{% endblock %}
+<footer>
+
+</footer>
+</body>
+<script type="text/javascript" src="{% static 'main/js/jquery-3.3.1.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/bootstrap.min.js' %}"></script>
+
+</html>
