@@ -14,7 +14,7 @@ from .models import Activation
 
 
 class SignInView(SuccessURLAllowedHostsMixin, FormView):
-    template_name = 'accounts/loginTest.html'
+    template_name = 'accounts/login.html'
     form_class = get_login_form()
     redirect_field_name = REDIRECT_FIELD_NAME
     success_url = '/'
@@ -46,7 +46,7 @@ class SignInView(SuccessURLAllowedHostsMixin, FormView):
 
 
 class SignUpView(FormView):
-    template_name = 'accounts/registerTest.html'
+    template_name = 'accounts/register.html'
     form_class = SignUpForm
     success_url = '/accounts'
 

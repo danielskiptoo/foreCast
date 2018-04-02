@@ -12,7 +12,7 @@ urlpatterns = [
     path('',main.views.IndexView, name='index'),
 
     path('login/', accounts.views.SignInView.as_view(), name='login'),
-    path('logout/', auth.LogoutView.as_view(template_name='accounts/logout.html'), name='logout'),
+    path('logout/', auth.LogoutView.as_view(template_name='index.html'), name='logout'),
 
     path('register/', accounts.views.SignUpView.as_view(), name='register'),
     path('activate/<code>/', accounts.views.ActivateView.as_view(), name='activate'),
@@ -34,3 +34,5 @@ urlpatterns = [
          auth.PasswordResetCompleteView.as_view(template_name='accounts/password_reset_complete.html'),
          name='password_reset_complete'),
 ]
+(r'^logout/$', 'django.contrib.auth.views.logout',
+                          {'next_page': '/successfully_logged_out/'})
