@@ -68,5 +68,12 @@ body{
 .user{
     padding-right: 12px;
 }
+#myNavbar li {
+    background: #79AEC8;
+    padding: 5px 0px;
+}
+#myNavbar li a{
+    color: #000000;
+}
 
 

@@ -6,6 +6,5 @@ app_name='main'
 
 urlpatterns = [
     path('',views.IndexView, name='index'),
-    path('account/', views.Signups, name='accounts'),
 
 ]
