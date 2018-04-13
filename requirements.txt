@@ -34,6 +34,7 @@ matplotlib==2.1.2
 numpy==1.14.0
 openpyxl==1.8.6
 pandas==0.14.0
+pandas-highcharts==0.5.2
 parsel==1.4.0
 parso==0.1.1
 pickleshare==0.7.4
