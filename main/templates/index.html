@@ -124,6 +124,14 @@
                         <div class="graphs">
                             <div class="row text-center">
                                 <h2 class="title">Maize Statistics</h2>
+
+                                <ul>
+                                {% for years in data %}
+
+                                    <li>{{ years }}</li>
+
+                                {% endfor %}
+                            </ul>
                             </div>
                         </div>
                     </div>
@@ -133,6 +141,11 @@
                             <div class="row text-center">
                                 <h2 class="title">Wheat stats</h2>
                             </div>
+                            <ul>
+                                {% for wheat in wheat %}
+                                    <li>{{ wheat }}</li>
+                                {% endfor %}
+                            </ul>
                         </div>
                     </div>
                 </div>

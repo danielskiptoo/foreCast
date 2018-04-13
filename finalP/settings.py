@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'main',
     'bootstrap4',
     'accounts',
+
 ]
 SITE_ID =1
 MIDDLEWARE = [
