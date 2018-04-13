@@ -1,112 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da84c7c9-7dcf-4153-ac15-78633a9162be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/accounts/popper/popper-utils.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/accounts/popper/popper.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/accounts/popper/popper.min.js.998b2d32c3e3.map.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/base.33897d8d3faf.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/changelists.f6dc691f8d62.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/fonts.494e4ec545c9.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/responsive.25d98d3909ed.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.7cf1de939f3b.md.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.3805311d5fc1.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/widgets.5e372b41c483.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.ec39515ae8c6.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/README.837277fa1908.txt.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.d519b3bab011.svg.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.svg.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-calendar.svg.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.svg.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/actions.6bf7f1c0488d.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.9328d2bf6579.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/autocomplete.cfd2c4dc8981.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/autocomplete.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/collapse.17d715df2104.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.4b879f616086.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/popup_response.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate_init.0d3b53c37074.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/cs.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/de.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/el.5629ce65500f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/en.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/es.dc9dbf9d65df.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/es.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/et.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fa.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fi.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hr.e1d2c70b4df5.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/id.6ee6c9c64b94.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/is.808c7d47acb5.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lt.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nl.c363ace8aa05.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ro.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ru.d83609abf2e0.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sk.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/uk.3d56f311192d.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/vi.3520aa7bdea8.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-CN.419002d3c6c1.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.min.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.min.12ad9473d5be.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/css/font-awesome.aedab525d09d.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.e4c40a7643fe.svg.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.fb0869e352d8.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.47da44498fc0.ttf.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/data/data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/data/wheat_data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/functions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/accounts/popper/popper-utils.9b6850bc16f9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/accounts/popper/popper-utils.js.a16a20f9dacb.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/accounts/popper/popper-utils.min.js.1c16ed35cfe8.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/accounts/popper/popper.js.8b14486d3b60.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/base.a419cbad388f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/forms.2003a066ae02.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/css/responsive.25d98d3909ed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/README.837277fa1908.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-alert.034cc7d8a67f.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.439e821418cd.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.a18cb4398978.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.fec1b761f254.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/img/search.7cf54ff789c6.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/timeparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.aacc43d6f308.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/de.366d0aacb55f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hi.116a90b7111b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/is.808c7d47acb5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ko.74b17541834f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pl.76465b54a6b0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr.157bc6eb978e.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.a95323cb4760.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.min.da607360bcc6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.min.12ad9473d5be.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.min.5d5357cb3704.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.e4c40a7643fe.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalP/settings.py" afterPath="$PROJECT_DIR$/finalP/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/models.py" afterPath="$PROJECT_DIR$/main/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/index.html" afterPath="$PROJECT_DIR$/main/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/views.py" afterPath="$PROJECT_DIR$/main/views.py" />
-    </list>
+    <list default="true" id="da84c7c9-7dcf-4153-ac15-78633a9162be" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -981,7 +876,7 @@
     <entry file="file://$PROJECT_DIR$/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
