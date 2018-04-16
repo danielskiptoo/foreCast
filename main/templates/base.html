@@ -6,7 +6,9 @@
     <meta charset="UTF-8">
     <title>{% block title %}Foreacast{% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/highcharts.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/custom.css' %}">
+
 </head>
 <body>
 
@@ -24,5 +26,8 @@
 </body>
 <script type="text/javascript" src="{% static 'main/js/jquery-3.3.1.js' %}"></script>
 <script type="text/javascript" src="{% static 'main/js/bootstrap.min.js' %}"></script>
-
+<script type="text/javascript" src="{% static 'main/js/highcharts.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/main.js' %}"></script>
+{% block Javascript %}
+{% endblock %}
 </html>

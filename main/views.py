@@ -1,9 +1,8 @@
+from django.http import HttpResponse
 from django.shortcuts import render
-from . import functions
 import pandas as pd
-import highcharts
-
-
+from django.template.loader import render_to_string
+from .templates_switcher import Contents
 
 
 
@@ -16,4 +15,24 @@ def IndexView(request):
     wheat_yield = data['wheat_yield'].tolist()
     #temperature =data['Temperature'].tolist()
 
-    return render(request, 'index.html',{'data':years,'maize':maize_yield,'wheat':wheat_yield})
+    return render(request, 'index.html',{'years':years,'maize':maize_yield,'wheat':wheat_yield})
+
+
+
+def switch_html(request):
+    if request.is_ajax():
+        id_ = request.POST['id']
+        response = ""
+        if id_==1:
+
+            response = render_to_string('production_statistics.html')
+        elif id_==2:
+            response = render_to_string('famers_dashboard.html')
+        elif id_==3:
+            response = render_to_string('advisory_pannel.html')
+    return HttpResponse(response)
+
+def Heloo(request):
+    if request.is_ajax():
+        text="Heloo there. This is another test"
+    return HttpResponse(text)

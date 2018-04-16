@@ -1,82 +1,82 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Forecast</title>
+
+    <title>{% block title %}Home{% endblock %}</title>
+
+
 </head>
 {% block body %}
-    <div id="navbar" class="navbar navbar-default    navbar-collapse  h-navbar ace-save-state" style="background:#417690">
-                <div class="navbar-container ace-save-state" id="navbar-container">
+    <div id="navbar" class="navbar navbar-default    navbar-collapse  h-navbar ace-save-state"
+         style="background:#417690">
+        <div class="navbar-container ace-save-state" id="navbar-container">
 
-                        <div class="navbar-header pull-left">
+            <div class="navbar-header pull-left">
 
-                                </a>
+                </a>
 
 
-                        </div>
+            </div>
 
-                        <div class="navbar-buttons navbar-header pull-right  " role="navigation">
-                                <ul class="nav ace-nav" style="">
-                                <li class="light-blue dropdown-modal user-min">
-                                                <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                                                        <img class="nav-user-photo" src="{% static 'main/images/user.jpg' %}" alt="User's  Photo">
-                                                        <span class="user-info">
+            <div class="navbar-buttons navbar-header pull-right  " role="navigation">
+                <ul class="nav ace-nav" style="">
+                    <li class="light-blue dropdown-modal user-min">
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                            <img class="nav-user-photo" src="{% static 'main/images/user.jpg' %}" alt="User's  Photo">
+                            <span class="user-info">
                                                                 <small></small>
                                                                                                                         </span>
-                                                        <i class="ace-icon fa fa-caret-down"></i>
-                                                </a>
+                            <i class="ace-icon fa fa-caret-down"></i>
+                        </a>
 
-                                                <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-                                                    {% if request.user.is_authenticated %}
-                                                         <li>
-                                                                <a href="{% url 'password_change' %}">
-                                                                        <i class="fa fa-cog"></i>
-                                                                        Change Password
-                                                                </a>
-                                                        </li>
+                        <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                            {% if request.user.is_authenticated %}
+                                <li>
+                                    <a href="{% url 'password_change' %}">
+                                        <i class="fa fa-cog"></i>
+                                        Change Password
+                                    </a>
+                                </li>
 
-                                                        <li class="divider"></li>
+                                <li class="divider"></li>
 
-                                                        <li>
-                                                            <a href="{% url 'logout' %}" target="_self">
-                                                                        <i class=" fa fa-power-off"></i>
-                                                                        Logout
-                                                                </a>
-                                                        </li>
-                                                     {% else %}
-                                                         <li>
-                                                                <a href="{% url 'login' %}">
-                                                                        <i class="ace-icon fa fa-cog"></i>
-                                                                        Login
-                                                                </a>
-                                                        </li>
+                                <li>
+                                    <a href="{% url 'logout' %}" target="_self">
+                                        <i class=" fa fa-power-off"></i>
+                                        Logout
+                                    </a>
+                                </li>
+                            {% else %}
+                                <li>
+                                    <a href="{% url 'login' %}">
+                                        <i class="ace-icon fa fa-cog"></i>
+                                        Login
+                                    </a>
+                                </li>
 
-                                                        <li class="divider"></li>
+                                <li class="divider"></li>
 
-                                                        <li>
-                                                            <a href="{% url 'register' %}" target="_self">
-                                                                        <i class="ace-icon fa fa-power-off"></i>
-                                                                        Signup
-                                                                </a>
-                                                        </li>
-                                                    {% endif %}
+                                <li>
+                                    <a href="{% url 'register' %}" target="_self">
+                                        <i class="ace-icon fa fa-power-off"></i>
+                                        Signup
+                                    </a>
+                                </li>
+                            {% endif %}
 
-                                                </ul>
-                                        </li>
-                                </ul>
-                        </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
 
-                </div><!-- /.navbar-container -->
-        </div>
-    {% if messages %}
-    <div class="container-fluid mt-3">
-        {% include 'bootstrap4/messages.html' %}
+        </div><!-- /.navbar-container -->
     </div>
-{% endif %}
+    {% if messages %}
+        <div class="container-fluid mt-3">
+            {% include 'bootstrap4/messages.html' %}
+        </div>
+    {% endif %}
     <nav class="navbar visible-xs">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -89,101 +89,156 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><span class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;Dashboard</a>
+                    <li class="active"><a href="/"><span class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;Dashboard</a>
                     </li>
-                    <li><a href="#"><span class=" glyphicon glyphicon-stats"></span>  Production Stats</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-grain"></span>  Farmer Dashboard</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-cloud"></span>  Advisory Panel</a></li>
+                    <li><a href="#" onclick="ChangeContent(1)"><span class=" glyphicon glyphicon-stats"></span>
+                        Production Stats</a></li>
+                    <li><a href="#" onclick="ChangeContent(2)"><span class="glyphicon glyphicon-grain"></span> Farmer
+                        Dashboard</a></li>
+                    <li><a href="#" onclick="ChangeContent(3)"><span class="glyphicon glyphicon-cloud"></span> Advisory
+                        Panel</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <div class="container-fluid" id="main-body">
-    <div class="main-body row"></div>
+        <div class="main-body row"></div>
         <div class="row content main-row">
-            <div class="col-sm-3 sidenav hidden-xs">
-                <h2 class="web-name">ForeCast</h2>
-                <ul class="nav nav-pills nav-stacked">
-                    <li class="active" id="active"><a href="#"><span class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;Dashboard</a>
-                    </li>
-                    <li><a href="#"><span class=" glyphicon glyphicon-stats"></span> Production Statistics</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-grain"></span> Farmer Dashboard</a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-                <br>
+            <div class="col-sm-3  sidenav hidden-xs" id="menu">
+                <div class="row">
+                    <div class="col-sm-12 navigation">
+                        <h2 class="web-name">ForeCast</h2>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li class="active" id="active"><a href="/"><span
+                                    class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;Dashboard</a>
+                            </li>
+                            <li><a href="#" onclick="ChangeContent(1)"><span class=" glyphicon glyphicon-stats"></span>
+                                Production Statistics</a></li>
+                            <li><a href="#" onclick="ChangeContent(2)"><span class="glyphicon glyphicon-grain"></span>
+                                Farmer
+                                Dashboard</a></li>
+                            <li><a href="#" onclick="ChangeContent(3)"><span class="glyphicon glyphicon-cloud"></span>
+                                Advisory
+                                Panel</a></li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="col-sm-12 text-center meta-div">
+                        <h3>Heloooo Am coming right now</h3>
+                    </div>
+                </div>
+
             </div>
             <br>
-           <div class="col-sm-9 main-body container-fluid">
+            <div class="col-sm-9 main-body container-fluid">
                 <div class="header container-fluid">
-                   <h4>Dashboard</h4>
-                    <p>Some text..</p>
+                    <h4>Uasin Gishu County Grain Farmers Platform</h4>
+
                 </div>
-                <div class="row mid">
-                    <div class="col-sm-6">
-                        <div class="graphs">
-                            <div class="row text-center">
-                                <h2 class="title">Maize Statistics</h2>
+                <div class="main">
+                    <div class="row mid">
+                        <div class="col-sm-8 left-container">
+                            <div class="graphs" id="graph">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 right-container">
+                            <div id="aside">
 
-                                <ul>
-                                {% for years in data %}
-
-                                    <li>{{ years }}</li>
-
-                                {% endfor %}
-                            </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-6">
-                        <div class="graphs">
-                            <div class="row text-center">
-                                <h2 class="title">Wheat stats</h2>
+                    <div class="row info">
+                        <div class="col-sm-4 text-center">
+                            <div class="well rainfall">
+                                <p>Text</p>
+                                <p>Text</p>
+                                <p>Text</p>
                             </div>
-                            <ul>
-                                {% for wheat in wheat %}
-                                    <li>{{ wheat }}</li>
-                                {% endfor %}
-                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="well">
+                                <p>Text</p>
+                                <p>Text</p>
+                                <p>Text</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="well">
+                                <p>Text</p>
+                                <p>Text</p>
+                                <p>Text</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row info">
-                    <div class="col-sm-4">
-                        <div class="well">
-                            <p>Text</p>
-                            <p>Text</p>
-                            <p>Text</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="well">
-                            <p>Text</p>
-                            <p>Text</p>
-                            <p>Text</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="well">
-                            <p>Text</p>
-                            <p>Text</p>
-                            <p>Text</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="well">
-                            <p>Text</p>
-                        </div>
-                    </div>
 
-                </div>
             </div>
         </div>
     </div>
 
 
+
 {% endblock %}
-</html>
+{% block Javascript %}
+
+    <script type="text/javascript">
+        Highcharts.chart('graph', {
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Historical maize yield for the past'
+            },
+            xAxis: {
+                categories: [{% for years in years %}'{{ years }}',{% endfor %}]
+
+            },
+
+            yAxis: {
+                title: {
+                    text: 'Crop yield in Tonnes'
+                }
+            },
+
+            series: [{
+                name: 'Maize',
+                data: [{% for maize in maize %}{{ maize }}, {% endfor %}]
+            }, {
+                name: 'Wheat',
+                data: [{% for wheat in wheat %}
+                    {{ wheat }},
+                {% endfor %}
+                ]
+            }]
+        });
+
+        function ChangeContent(id) {
+            $.ajax({
+                type: "POST",
+                url: '/content',
+                data: {'id': id, 'csrfmiddlewaretoken': '{{ csrf_token }}'},
+                success: function (data) {
+                    $('.row.mid').html(data);
+                    console.log(data)
+                }
+            });
+
+        }
+
+        function Heloo() {
+            $.ajax({
+                type: "POST",
+                url: '/test',
+                data: {'csrfmiddlewaretoken': '{{ csrf_token }}'},
+                success: function (data) {
+                    alert(data)
+                }
+            });
+
+        }
+
+
+    </script>
+{% endblock %}

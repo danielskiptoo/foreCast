@@ -25,6 +25,7 @@
  background-color: #f5f5f5;
  border: 1px solid #e3e3e3;
  margin-top: 15px;
+
 }
 .info{
     margin-top: 15px;
@@ -76,4 +77,54 @@ body{
     color: #000000;
 }
 
+  .graphs{
+        width: 100%;
+        height: 400px;
+    }
+  .container-fluid{
+      padding-right: 0px;
+      padding-left: 5px;
+      margin: 0px;
+  }
+  .header{
+   padding-left: 10px;
+      height: 60px;
 
+  }
+#menu{
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+     }
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navigation{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.nav-stacked li a{
+    border-radius: 0px;
+}
+.nav-stacked li{
+    line-height: 15px;
+}
+#aside{
+    height: 400px;
+    background-color: #1b6d85;
+    width: 100%;
+}
+.right-container{
+    padding: 15px 0px;
+
+}
+.left-container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.meta-div{
+    width: 100%;
+    height: 350px;
+    background-color: #262626;
+}
