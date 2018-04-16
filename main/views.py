@@ -9,7 +9,7 @@ from .templates_switcher import Contents
 
 def IndexView(request):
     colnames = ['Year', 'Temperature', 'Rainfall', 'maize_yield', 'wheat_yield']
-    data = pd.read_csv('F:/kip stuffs/projects/foreCast/main/data/data.csv', names=colnames, skiprows=(1))
+    data = pd.read_csv('media/data/data.csv', names=colnames, skiprows=(1))
     years = data['Year'].tolist()
     maize_yield = data['maize_yield'].tolist()
     wheat_yield = data['wheat_yield'].tolist()
