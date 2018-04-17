@@ -12,7 +12,7 @@ from .templates_switcher import Contents
 
 
 
-
+response = 'helooooo'
 def IndexView(request):
     file_path = "main/static/main/data/"
     colnames = ['Year', 'Temperature', 'Rainfall', 'maize_yield', 'wheat_yield']
@@ -31,7 +31,6 @@ def switch_html(request):
 
     if request.is_ajax():
         id_ = request.POST['id']
-        response = 'helooooo'
         if id_==1:
             response =render_to_string('production_statistics.html',context=None)
         elif id_==2:
