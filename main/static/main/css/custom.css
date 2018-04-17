@@ -112,8 +112,9 @@ body{
 }
 #aside{
     height: 400px;
-    background-color: #1b6d85;
+    background-color: #ffffff;
     width: 100%;
+    box-shadow: #122b40;
 }
 .right-container{
     padding: 15px 0px;
@@ -126,5 +127,5 @@ body{
 .meta-div{
     width: 100%;
     height: 350px;
-    background-color: #262626;
+    background-color: #888888;
 }
