@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'main',
     'bootstrap4',
     'accounts',
-    'highcharts',
+
 
 ]
 SITE_ID =1
