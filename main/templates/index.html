@@ -126,7 +126,7 @@
                     </div>
                     <div class="col-sm-12 text-center meta-div">
                         <ul>
-                            <li><div class="fa fa-facebook">Facebook</div></li>
+                            <li><div class="glyphicon glyphicon-fb">Facebook</div></li>
                             <li><div class="fa fa-twitter">Facebook</div></li>
                             <li><div class="fa fa-instagram">Facebook</div></li>
                         </ul>
@@ -165,11 +165,11 @@
                                 <div class="row">
                                     <div class="col-sm-12 text-center" id="title">Estimated Crop Yield</div>
                                 </div>
-                                        <div class="row">
+                                        <div class="row prediction">
                                             <div class="col-sm-5 text-info center">Wheat: </div><div class="col-sm-3 ">15Bag</div><div class="col-sm-4">Per Ha</div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-5 text-info center">Wheat: </div><div class="col-sm-3 ">15Bag</div><div class="col-sm-4">Per Ha</div>
+                                        <div class="row prediction">
+                                            <div class="col-sm-5 text-info center">Maize: </div><div class="col-sm-3 ">15Bag</div><div class="col-sm-4">Per Ha</div>
                                         </div>
                                 <div class="row">
                                     <div class="col-sm-12">Productions By Regions</div>
@@ -219,7 +219,8 @@
     <script type="text/javascript">
         Highcharts.chart('graph', {
             chart: {
-                type: 'column'
+                type: 'column',
+                tribute:false
             },
             title: {
                 text: 'Historical maize yield for the past'

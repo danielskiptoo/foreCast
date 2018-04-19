@@ -115,6 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ENABLE_USER_ACTIVATION = False
 LOGIN_VIA_EMAIL = True
 LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL='/'
 
 
 
@@ -124,10 +125,10 @@ LOGIN_REDIRECT_URL = '/'
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
+USE_I18N = True
 
 TIME_ZONE = 'UTC'
 
-USE_I18N = True
 
 USE_L10N = True
 

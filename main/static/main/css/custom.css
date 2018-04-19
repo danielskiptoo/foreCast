@@ -139,3 +139,9 @@ body{
     width: 100%;
     background-color: #1b6d85;
 }
+.prediction{
+    margin: 10px 4px;
+}
+table{
+    width: 100%;
+}
