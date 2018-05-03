@@ -261,17 +261,28 @@
 
         }
 
-        function Heloo() {
+        function LoadFamer() {
             $.ajax({
                 type: "POST",
-                url: '/test',
+                url: '/farmer',
                 data: {'csrfmiddlewaretoken': '{{ csrf_token }}'},
                 success: function (data) {
+                    $('.row.mid').html(data);
+                    console.log(data)
                     alert(data)
                 }
             });
 
         }
+      {% comment %}  $(function () {
+            {% if user.is_authenticated %}
+                alert("Helooo ")
+
+                {% else %}
+                alert("Not uthenticated")
+            {% endif %}
+        }){% endcomment %}
+
 
 
     </script>

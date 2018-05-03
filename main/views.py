@@ -1,9 +1,11 @@
 import os
 
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
 import pandas as pd
 from django.template.loader import render_to_string
+#from django.contrib.auth import User
 from django.contrib.staticfiles.finders import find
 
 
@@ -27,6 +29,7 @@ def IndexView(request):
 
 
 def switch_html(request):
+
     if request.is_ajax():
         id_ = int(request.POST['id'])
         if id_==1:
@@ -38,7 +41,8 @@ def switch_html(request):
 
     return HttpResponse(response)
 
-def Heloo(request):
+@login_required
+def farmerPanel(request):
     if request.is_ajax():
-        text="Heloo there. This is another test"
+        text=render_to_string('famers_dashboard.html', context=None)
     return HttpResponse(text)

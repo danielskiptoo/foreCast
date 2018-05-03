@@ -8,7 +8,7 @@ app_name='main'
 urlpatterns = [
     path('',views.IndexView, name='index'),
     path('content',views.switch_html, name='farmer'),
-    path('test',views.Heloo, name='test')
+    path('farmer',views.farmerPanel, name='farmer')
 
 
 ]
