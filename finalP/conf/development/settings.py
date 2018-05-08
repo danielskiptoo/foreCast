@@ -1,6 +1,6 @@
 import os
+from ..config import *
 import warnings
-
 from os.path import dirname
 
 warnings.simplefilter('error', DeprecationWarning)
@@ -8,7 +8,7 @@ warnings.simplefilter('error', DeprecationWarning)
 BASE_DIR = dirname(dirname(dirname(dirname(os.path.abspath(__file__)))))
 CONTENT_DIR = os.path.join(BASE_DIR, 'content')
 
-SECRET_KEY = 'NhfTvayqggTBPswCXXhWaN69HuglgZIkM'
+SECRET_KEY = SECRET_KEY
 
 DEBUG = True
 ALLOWED_HOSTS = []
@@ -25,11 +25,11 @@ INSTALLED_APPS = [
     'django.contrib.sites',
 
     # Vendor apps
-    'bootstrap4',
+    #'bootstrap4',
 
     # Application apps
-    'main',
-    'accounts',
+    #'main',
+    #'accounts',
 ]
 
 MIDDLEWARE = [
@@ -63,22 +63,17 @@ TEMPLATES = [
 ]
 
 
-EMAIL_FILE_PATH = '/tmp/app-messages'
 
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USERWSGI_APPLICATION = 'app.wsgi.application'
 
-EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-EMAIL_HOST_USER = 'test@example.com'
-EMAIL_FILE_PATH = '/tmp/app-messages'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'simple-django-login-and-register',
-        'USER': 'postgres',
-        'PASSWORD': 'root@k',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'ENGINE': ENGINE,
+        'NAME': DB_NAME,
+        'USER': DB_USER,
+        'PASSWORD': DB_PASSWORD,
+        'HOST': DB_HOST,
+        'PORT': DB_PORT,
 
     }
 }

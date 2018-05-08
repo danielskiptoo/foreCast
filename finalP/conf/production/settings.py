@@ -4,7 +4,7 @@ from os.path import dirname
 BASE_DIR = dirname(dirname(dirname(dirname(os.path.abspath(__file__)))))
 CONTENT_DIR = os.path.join(BASE_DIR, 'content')
 
-SECRET_KEY = '3d305kajG5Jy8KBafCMpHwDIsNi0SqVaW'
+SECRET_KEY = 'Secret Key'
 
 DEBUG = False
 ALLOWED_HOSTS = [
@@ -20,13 +20,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # Vendor apps
-    'bootstrap4',
-
-    # Application apps
-    'main',
-    'accounts',
 ]
 
 MIDDLEWARE = [

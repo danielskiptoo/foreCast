@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'main',
-    'bootstrap4',
+    'bootstrap3',
     'accounts',
     'social_django'
 
