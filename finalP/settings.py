@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'main',
     'bootstrap3',
     'accounts',
-    'social_django'
+    'social_django',
+    'bootstrap4',
 
 
 ]

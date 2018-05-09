@@ -2,394 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da84c7c9-7dcf-4153-ac15-78633a9162be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/finalP/conf/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.1cdea463bb20.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.1cdea463bb20.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.8a940fc6c6cc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.min.12ad9473d5be.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.min.12ad9473d5be.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.min.5d5357cb3704.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/bootstrap.min.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/custom.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/custom.f8cdd983598f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/custom.f8cdd983598f.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/font-awesome.350e379de80f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/font-awesome.aedab525d09d.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/font-awesome.aedab525d09d.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/css/font-awesome.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/FontAwesome.03c70c5e8285.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/FontAwesome.03c70c5e8285.otf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/FontAwesome.otf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.9048aedb839b.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.9048aedb839b.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.d06e73eab020.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.e4c40a7643fe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.e4c40a7643fe.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.fb0869e352d8.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.0a5c48c69a25.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.0a5c48c69a25.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.448c34a56d69.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.47da44498fc0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.47da44498fc0.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.5eae1f7217b6.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.aa16cd35628e.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/images/user.0a617153c13c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/images/user.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.8015042d0b4a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.8015042d0b4a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.min.4becdc910462.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.min.4becdc910462.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/bootstrap.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/jquery-3.3.1.839e82d55af4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/jquery-3.3.1.839e82d55af4.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/jquery-3.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/main/js/jquery-3.3.1.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/_markerlib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/_markerlib/markers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/easy_install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip-1.5.6.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip-1.5.6.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip-1.5.6.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip-1.5.6.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip-1.5.6.dist-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip-1.5.6.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip-1.5.6.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/__main__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/_markerlib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/_markerlib/markers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/colorama/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/colorama/ansi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/colorama/initialise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/colorama/win32.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/colorama/winterm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/_backport/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/_backport/misc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/database.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/locators.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/manifest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/markers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/metadata.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/scripts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/t32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/t64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/version.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/w32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/w64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/distlib/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/filters/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/ihatexml.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/inputstream.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/sanitizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/serializer/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/tokenizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treebuilders/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treewalkers/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treewalkers/genshistream.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treewalkers/lxmletree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treewalkers/pulldom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/trie/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/trie/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/trie/datrie.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/trie/py.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/pkg_resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/re-vendor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/adapters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/auth.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/cacert.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/certs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/cookies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/hooks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/big5freq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/big5prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/chardetect.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/chardistribution.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/charsetgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/charsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/codingstatemachine.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/cp949prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/escprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/escsm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/eucjpprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/euckrfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/euckrprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/euctwfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/euctwprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/gb2312freq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/gb2312prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/jisfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/jpcntx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/langbulgarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/langcyrillicmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/langgreekmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/langhebrewmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/langhungarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/langthaimodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/latin1prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/mbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/mbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/mbcssm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/sbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/sbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/sjisprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/universaldetector.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/chardet/utf8prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/packages/six.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/sessions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/status_codes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/structures.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/six.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/backwardcompat/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/basecommand.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/baseparser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/cmdoptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/bundle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/completion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/freeze.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/help.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/show.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/uninstall.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/unzip.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/commands/zip.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/download.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/locations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/log.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/pep425tags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/req.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/runner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/status_codes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/vcs/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/vcs/bazaar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/vcs/git.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/vcs/mercurial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/vcs/subversion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pkg_resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/entry_points.txt.orig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/pydist.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/requires.txt.orig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools-2.1.dist-info/zip-safe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/archive_util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/cli-32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/cli-64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/cli-arm-32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/cli.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/alias.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/bdist_egg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/bdist_rpm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/bdist_wininst.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/build_ext.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/build_py.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/develop.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/easy_install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/egg_info.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/install_egg_info.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/install_lib.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/install_scripts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/launcher manifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/register.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/rotate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/saveopts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/sdist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/setopt.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/command/upload_docs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/depends.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/dist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/extension.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/gui-32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/gui-64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/gui-arm-32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/gui.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/lib2to3_ex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/package_index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/py26compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/py27compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/py31compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/sandbox.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/script template (dev).py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/script template.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/site-patch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/ssl_support.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/svn_utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/doctest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/environment.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/py26compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/script-with-bom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_bdist_egg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_build_ext.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_develop.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_dist_info.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_easy_install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_egg_info.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_markerlib.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_packageindex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_sandbox.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_sdist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_svn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/tests/test_upload_docs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/setuptools/version.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/tcl8.6/init.tcl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/Activate.ps1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_bz2.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_ctypes.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_ctypes_test.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_decimal.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_elementtree.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_hashlib.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_lzma.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_msi.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_multiprocessing.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_overlapped.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_socket.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_sqlite3.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_ssl.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_testbuffer.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_testcapi.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_testimportmultiple.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/_tkinter.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/activate.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/deactivate.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/easy_install-3.4.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/easy_install.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/pip.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/pip3.4.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/pip3.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/pyexpat.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/python.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/python3.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/pythonw.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/select.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/sqlite3.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/tcl86t.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/tk86t.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/unicodedata.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Scripts/winsound.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/pyvenv.cfg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/main/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/main/static/main/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-brands-400.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-brands-400.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-brands-400.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-brands-400.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-regular-400.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-regular-400.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-regular-400.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-regular-400.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-solid-900.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-solid-900.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-solid-900.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-solid-900.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/css/fontawesome-all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-brands-400.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-regular-400.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/fa-solid-900.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/main/webfonts/glyphicons-halflings-regular.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/main/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalP/conf/development/settings.py" afterPath="$PROJECT_DIR$/finalP/conf/development/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalP/conf/production/settings.py" afterPath="$PROJECT_DIR$/finalP/conf/production/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/accounts/register.html" afterPath="$PROJECT_DIR$/accounts/templates/accounts/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/urls.py" afterPath="$PROJECT_DIR$/accounts/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalP/settings.py" afterPath="$PROJECT_DIR$/finalP/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/main/css/bootstrap.css" afterPath="$PROJECT_DIR$/main/static/main/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/main/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/main/static/main/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/base.html" afterPath="$PROJECT_DIR$/main/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/index.html" afterPath="$PROJECT_DIR$/main/templates/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/finalP/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/filters/__init__.py" afterPath="$PROJECT_DIR$/main/static/main/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="$PROJECT_DIR$/main/static/main/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stuffs/projects/django_mpesa/Lib/site-packages/pip/_vendor/requests/packages/urllib3/contrib/__init__.py" afterPath="$PROJECT_DIR$/main/static/main/fonts/fontawesome-webfont.ttf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -410,28 +62,48 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
-              <caret line="130" column="74" lean-forward="false" selection-start-line="130" selection-start-column="74" selection-end-line="130" selection-end-column="74" />
+            <state relative-caret-position="0">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="famers_dashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/famers_dashboard.html">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/finalP/conf/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+            <state relative-caret-position="213">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advisory_pannel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/advisory_pannel.html">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+            <state relative-caret-position="697">
+              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -440,8 +112,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -449,11 +121,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="117" column="20" lean-forward="false" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="9" column="85" lean-forward="false" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+            <state relative-caret-position="136">
+              <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -462,28 +156,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finalP/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/finalP/conf/production/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
-              <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="969">
+              <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -555,17 +229,19 @@
         <option value="$PROJECT_DIR$/accounts/models.py" />
         <option value="$PROJECT_DIR$/main/urls.py" />
         <option value="$PROJECT_DIR$/main/views.py" />
-        <option value="$PROJECT_DIR$/accounts/urls.py" />
         <option value="$PROJECT_DIR$/main/templates/advisory_pannel.html" />
         <option value="$PROJECT_DIR$/main/templates/famers_dashboard.html" />
         <option value="$PROJECT_DIR$/main/templates/production_statistics.html" />
         <option value="$PROJECT_DIR$/finalP/conf/config.py" />
-        <option value="$PROJECT_DIR$/main/templates/index.html" />
-        <option value="$PROJECT_DIR$/main/templates/base.html" />
         <option value="$PROJECT_DIR$/finalP/conf/development/settings.py" />
-        <option value="$PROJECT_DIR$/finalP/settings.py" />
         <option value="$PROJECT_DIR$/finalP/conf/production/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/main/templates/base.html" />
+        <option value="$PROJECT_DIR$/finalP/settings.py" />
+        <option value="$PROJECT_DIR$/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/login.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/register.html" />
+        <option value="$PROJECT_DIR$/main/templates/index.html" />
       </list>
     </option>
   </component>
@@ -596,7 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -620,7 +295,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foreCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foreCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highcharts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foreCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foreCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foreCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foreCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -643,32 +372,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foreCast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foreCast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -706,6 +409,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -720,11 +424,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\kip stuffs\projects\foreCast\main\static\main\webfonts" />
+      <recent name="F:\kip stuffs\projects\foreCast\main\static\main" />
+      <recent name="F:\kip stuffs\projects\foreCast\main\static" />
       <recent name="F:\kip stuffs\projects\foreCast" />
       <recent name="F:\kip stuffs\projects\foreCast\finalP" />
-      <recent name="F:\kip stuffs\projects\foreCast\main\static\main" />
-      <recent name="F:\kip stuffs\projects\foreCast\main\media" />
-      <recent name="F:\kip stuffs\projects\foreCast\main\media\main\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\kip stuffs\projects\foreCast\main\static\main\fonts" />
@@ -1004,27 +708,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23827533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.507365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22390318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@finalP" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@finalP" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1309329" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46481177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1048,23 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts/templates/layouts/default/head.html" />
-    <entry file="file://$PROJECT_DIR$/accounts/templates/layouts/default/foot.html" />
-    <entry file="file://$PROJECT_DIR$/accounts/templates/email/activation_profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/accounts_index.html" />
-    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/password_reset_confirm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
@@ -1126,13 +814,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/static/main/js/highcharts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/css/highcharts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1204,14 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1024">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Virtual Environments/finaly_virtualenv/Lib/site-packages/django/contrib/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1245,21 +918,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+    <entry file="file://$PROJECT_DIR$/finalP/conf/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/main/templates/production_statistics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="71" lean-forward="false" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/main/images/user.jpg" />
+    <entry file="file://$PROJECT_DIR$/staticfiles/main/images/user.0a617153c13c.jpg" />
+    <entry file="file://$PROJECT_DIR$/main/static/main/images/user.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finalP/conf/development/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="99" column="12" lean-forward="false" selection-start-line="99" selection-start-column="12" selection-end-line="100" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finalP/conf/production/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/font-awesome.css" />
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2686">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/highcharts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/fontawesome.min.css" />
     <entry file="file://$PROJECT_DIR$/main/templates/advisory_pannel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="382">
           <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,109 +985,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finalP/conf/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/main/templates/production_statistics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/css/fontawesome.min.css">
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/fontawesome-all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="130" column="74" lean-forward="false" selection-start-line="130" selection-start-column="74" selection-end-line="130" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/staticfiles/main/images/user.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/staticfiles/main/images/user.0a617153c13c.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/images/user.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="9" column="85" lean-forward="false" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+        <state relative-caret-position="136">
+          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finalP/conf/config.py">
+    <entry file="file://$PROJECT_DIR$/accounts/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="1785">
+          <caret line="117" column="20" lean-forward="false" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finalP/conf/development/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/finalP/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="969">
+          <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finalP/conf/production/settings.py">
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="527">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="663">
+          <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finalP/conf/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="20" />
           <folding />
         </state>
       </provider>

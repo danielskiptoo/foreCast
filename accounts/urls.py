@@ -34,7 +34,7 @@ urlpatterns = [
          auth.PasswordResetCompleteView.as_view(template_name='accounts/password_reset_complete.html'),
          name='password_reset_complete'),
 
-    path('^oauth/', include('social_django.urls', namespace='social')),
+   # path('^oauth/', include('social_django.urls', namespace='social')),
 ]
 (r'^logout/$', 'django.contrib.auth.views.logout',
                           {'next_page': '/successfully_logged_out/'})

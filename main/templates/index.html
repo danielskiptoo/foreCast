@@ -13,7 +13,6 @@
 
             <div class="navbar-header pull-left">
 
-                </a>
 
 
             </div>
@@ -26,7 +25,7 @@
                             <span class="user-info">
                                                                 <small></small>
                                                                                                                         </span>
-                            <i class="ace-icon fa fa-caret-down"></i>
+                            <i class="ace-icon fa fa-caret-down" style="color: #fff;"></i>
                         </a>
 
                         <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
@@ -49,7 +48,7 @@
                             {% else %}
                                 <li>
                                     <a href="{% url 'login' %}">
-                                        <i class="ace-icon fa fa-cog"></i>
+                                        <i class=" glyphicon glyphicon-arrow-down"></i>
                                         Login
                                     </a>
                                 </li>
@@ -58,7 +57,7 @@
 
                                 <li>
                                     <a href="{% url 'register' %}" target="_self">
-                                        <i class="ace-icon fa fa-power-off"></i>
+                                        <i class="   glyphicon glyphicon-user"></i>
                                         Signup
                                     </a>
                                 </li>
@@ -74,7 +73,7 @@
     </div>
     {% if messages %}
         <div class="container-fluid mt-3">
-            {% include 'bootstrap4/messages.html' %}
+            {% include 'bootstrap3/messages.html' %}
         </div>
     {% endif %}
     <nav class="navbar visible-xs">
@@ -95,7 +94,7 @@
                         Production Stats</a></li>
                     <li><a href="#" onclick="ChangeContent(2)"><span class="glyphicon glyphicon-grain"></span> Farmer
                         Dashboard</a></li>
-                    <li><a href="#" onclick="ChangeContent(3)"><span class="glyphicon glyphicon-cloud"></span> Advisory
+                    <li><a href="#" onclick="ChangeContent(3)"><span class="glyphicon glyphicon-signal"></span> Advisory
                         Panel</a></li>
                 </ul>
             </div>
@@ -111,14 +110,14 @@
                         <h2 class="web-name">ForeCast</h2>
                         <ul class="nav nav-pills nav-stacked">
                             <li class="active" id="active"><a href="/"><span
-                                    class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;Dashboard</a>
+                                    class=""></span>&nbsp;&nbsp;Dashboard</a>
                             </li>
-                            <li><a href="#" onclick="ChangeContent(1)"><span class=" glyphicon glyphicon-stats"></span>
+                            <li><a href="#" onclick="ChangeContent(1)"><span class=""></span>
                                 Production Statistics</a></li>
                             <li><a href="#" onclick="ChangeContent(2)"><span class="glyphicon glyphicon-grain"></span>
                                 Farmer
                                 Dashboard</a></li>
-                            <li><a href="#" onclick="ChangeContent(3)"><span class="glyphicon glyphicon-cloud"></span>
+                            <li><a href="#" onclick="ChangeContent(3)"><span class="glyphicon glyphicon-signal"></span>
                                 Advisory
                                 Panel</a></li>
                         </ul>

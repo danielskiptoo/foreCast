@@ -6,11 +6,12 @@
     <meta charset="UTF-8">
     <title>{% block title %}Foreacast{% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/fontawesome-all.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/highcharts.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/custom.css' %}">
-   {% comment %} <link rel="stylesheet" type="text/css" href="{% static 'main/css/fontawesome.min.css' %}">{% endcomment %}
-    <link rel="stylesheet" type="text/css" href="{% static 'main/css/font-awesome.css' %}">
-    <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
 
 </head>
 <body>
@@ -18,7 +19,7 @@
 {% block body %}
 {% if messages %}
     <div class="container-fluid mt-3">
-        {% include 'bootstrap4/messages.html' %}
+        {% include 'bootstrap3/messages.html' %}
     </div>
 {% endif %}
 
