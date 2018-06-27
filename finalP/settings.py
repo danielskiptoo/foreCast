@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'accounts',
     'social_django',
     'bootstrap4',
+    'rest_framework',
 
 
 ]

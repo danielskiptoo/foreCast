@@ -6,9 +6,11 @@
     <meta charset="UTF-8">
     <title>{% block title %}Foreacast{% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/bootstrap.min.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'main/css/fontawesome-all.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/font-awesome.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/highcharts.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'main/css/custom.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/pnotify/pnotify.custom.min.css' %}">
+
 
 
 
@@ -26,10 +28,13 @@
 {% endblock %}
 
 </body>
+<script src="//unpkg.com/navigo@6"></script>
 <script type="text/javascript" src="{% static 'main/js/jquery-3.3.1.js' %}"></script>
 <script type="text/javascript" src="{% static 'main/js/bootstrap.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'main/js/highcharts.js' %}"></script>
 <script type="text/javascript" src="{% static 'main/js/main.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/pnotify/pnotify.custom.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/pnotify/custome.js' %}"></script>
 {% block Javascript %}
 {% endblock %}
 </html>

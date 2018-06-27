@@ -31,6 +31,13 @@
                         <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
                             {% if request.user.is_authenticated %}
                                 <li>
+                                    <a href="#">
+                                        <i class="fa fa-user"></i>
+                                        Welcome Admin
+                                    </a>
+                                </li>
+                                 <li class="divider"></li>
+                                <li>
                                     <a href="{% url 'password_change' %}">
                                         <i class="fa fa-cog"></i>
                                         Change Password
@@ -109,10 +116,9 @@
                     <div class="col-sm-12 navigation">
                         <h2 class="web-name">ForeCast</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li class="active" id="active"><a href="/"><span
-                                    class=""></span>&nbsp;&nbsp;Dashboard</a>
+                            <li class="active" id="active"><a href="/"><span class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;&nbsp;Dashboard</a>
                             </li>
-                            <li><a href="#" onclick="ChangeContent(1)"><span class=""></span>
+                            <li><a href="#" onclick="ChangeContent(1)"><span class="glyphicon glyphicon-stats"></span>
                                 Production Statistics</a></li>
                             <li><a href="#" onclick="ChangeContent(2)"><span class="glyphicon glyphicon-grain"></span>
                                 Farmer
@@ -123,15 +129,9 @@
                         </ul>
                         <br>
                     </div>
-                    <div class="col-sm-12 text-center meta-div">
-                        <ul>
-                            <li><div class=""><span class="fa fa-facebook"></span> Facebook</div></li>
-                            <li><div class=""><span class="fa fa-instagram"></span> Facebook</div></li>
-                            <li><div class=""><span class="fa fa-twitter"></span> Facebook</div></li>
-                        </ul>
 
-
-
+                    <div class="col-sm-12 weather-starts">
+                         <div class="col-sm-12" style="color:#761c19;height: 2px; margin-top: 10px"></div>
                     </div>
                 </div>
 
@@ -139,7 +139,7 @@
             <br>
             <div class="col-sm-9 main-body container-fluid">
                 <div class="header container-fluid">
-                    <h4>Uasin Gishu County Grain Farmers Platform</h4>
+                    <h4>Grain Yield Prediction Advisory</h4>
 
                 </div>
                 <div class="main">
@@ -177,31 +177,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="row info">
-                        <div class="col-sm-4 text-center">
-                            <div class="well rainfall">
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="well">
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="well">
-                                <p>Text</p>
-                                <p>Text</p>
-                                <p>Text</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                 </div>
 
             </div>
         </div>
@@ -214,8 +190,15 @@
 
 {% endblock %}
 {% block Javascript %}
+  <script type="text/javascript">
+                  {% comment %}  $.ajax({
+                  url: "{% url 'location' %}",
+                  type: 'GET' ,
+                  success: function (json) {
 
-    <script type="text/javascript">
+                  }
+                });{% endcomment %}
+
         Highcharts.chart('graph', {
             chart: {
                 type: 'column',
@@ -231,7 +214,7 @@
 
             yAxis: {
                 title: {
-                    text: 'Crop yield in Tonnes'
+                    text: 'Crop yield in Bags Per Ha'
                 }
             },
 

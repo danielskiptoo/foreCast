@@ -1,70 +1,77 @@
 <div class="col-sm-8 left-container">
-                            <div class="graphs" id="advisory">
-                                <div class="row">
-                                    <div class="col-sm-12 text">Crop Advisory Pannel</div>
-                                    <div class="col-sm-12 text-center">
-                                        <table class="table table-responsive col-sm-12">
-                                            <thead>
-                                            <tr class="info">
-                                                <td>Crop</td>
-                                                <td>Raifall Requirement</td>
-                                                <td>Temperatures</td>
-                                                <td>Fertilizer/Ha</td>
-                                                <td>Expected Harvest</td>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr class="success"><td>Maize</td>
-                                                <td>120mm/yer</td>
-                                                <td>22.2 &deg; C</td>
-                                                <td>2bags</td>
-                                                <td>27bags</td>
-                                            </tr>
-                                            <tr class="success"><td>Wheat</td>
-                                                <td>1167mm/yer</td>
-                                                <td>24.2 &deg; C</td>
-                                                <td>3bags</td>
-                                                <td>22bags</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+    <div class="graphs" id="advisory">
+        <div class="row">
+            <div class="col-sm-12 text-header text-center" style="padding: 12px">Crop Advisory Pannel</div>
+            <div class="col-sm-12 text-center">
+                <table class="table table-responsive col-sm-12">
+                    <thead>
+                    <tr class="info">
+                        <td>Crop</td>
+                        <td>Raifall Requirement</td>
+                        <td>Temperatures</td>
+                        <td>Fertilizer/Ha</td>
+                        <td>Expected Harvest</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for crop in crop_req %}
+                        <tr class="success">
+                            <td>{{ crop.crop_name }}</td>
+                            <td>{{ crop.rainfall_requirement }}</td>
+                            <td>{{ crop.temp_requirements }} &deg; C</td>
+                            <td>{{ crop.fertilizer_ha }}</td>
+                            <td>27bags</td>
+                        </tr>
+                    {% endfor %}
 
-                                    <h1>Under Development....</h1>
-                                </div>
 
-                            </div>
-                        </div>
-                        <div class="col-sm-4 right-container">
-                            <div id="aside">
-                                <div class="row">
-                                    <div class="col-sm-12 text-center"><h3>Climatic Stats</h3></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-6">April May Rains</div>
-                                    <div class="col-sm-6">122mm</div><br>
-                                    <div class="col-sm-6">May June  Rains</div>
-                                    <div class="col-sm-6">122mm</div><br>
-                                    <div class="col-sm-6">July August Rains</div>
-                                    <div class="col-sm-6">122mm</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12 text-center" id="title">Estimated Crop Yield</div>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       <div class="row">
+        <div class="col-sm-12">
+{% for key, value in weather_data.items %}
+                {{ key }}: {{ value }}
+        {% endfor %}
 
-                                    <div class="col-sm-12">
-                                        <div class="row">
-                                            <div class="col-sm-6 text-info center">Maize: </div>
-                                        <div class="col-sm-6 text-justify"></div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-6 text-info center">Maize: </div>
-                                        <div class="col-sm-6 text-justify"></div>
-                                        </div>
-                                   </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">Productions By Regions</div>
+        </div>
+    </div>
 
-                                </div>
-                            </div>
-                        </div>
+
+    </div>
+</div>
+<div class="col-sm-4 right-container">
+    <div id="aside">
+        <div class="row">
+            <div class="col-sm-12 text-center"><h3>Climatic Stats</h3></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">April May Rains</div>
+            <div class="col-sm-6">122mm</div>
+            <br>
+            <div class="col-sm-6">May June Rains</div>
+            <div class="col-sm-6">122mm</div>
+            <br>
+            <div class="col-sm-6">July August Rains</div>
+            <div class="col-sm-6">122mm</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center" id="title">Estimated Crop Yield</div>
+
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-6 text-info center">Maize:</div>
+                    <div class="col-sm-6 text-justify"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-info center">Maize:</div>
+                    <div class="col-sm-6 text-justify"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">Productions By Regions</div>
+        </div>
+    </div>
+</div>

@@ -75,13 +75,33 @@ class SignInViaEmailForm(forms.Form):
 
 
 class SignUpForm(UserCreationForm):
+
     class Meta:
         model = User
         fields = ('username', 'first_name', 'last_name', 'email', 'password1', 'password2',)
 
-    first_name = forms.CharField(max_length=50, required=False, help_text=_('Optional.'))
-    last_name = forms.CharField(max_length=50, required=False, help_text=_('Optional.'))
-    email = forms.EmailField(max_length=255, help_text=_('Required. Type a valid email address.'))
+    first_name = forms.CharField(max_length=50, required=False, help_text=_(''))
+    last_name = forms.CharField(max_length=50, required=False, help_text=_(''))
+    email = forms.EmailField(max_length=255, help_text=_(''))
+    password1 = forms.CharField(
+        label=_("Password"),
+        widget=forms.PasswordInput,
+        strip=False,
+        help_text=_(""),
+    )
+    password2 = forms.CharField(
+        label=_("Password confirmation"),
+        widget=forms.PasswordInput,
+        strip=False,
+        help_text=_(""),
+    )
+
+    def __init__(self, *args, **kwargs):
+        super(UserCreationForm, self).__init__(*args, **kwargs)
+
+        #for fieldname in ['username', 'password1', 'password2','first_name','last_name']:
+            #self.fields[fieldname].help_text = None
+
 
     error_messages = {
         'unique_email': _('You can not use this email.'),
