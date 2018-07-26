@@ -8,3 +8,4 @@ class Activation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
 
+

@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'social_django',
     'bootstrap4',
     'rest_framework',
+    'djng',
+    'chartjs',
 
 
 ]
@@ -150,6 +152,8 @@ DATABASES['default'].update(db_from_env)
 
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+#('node_modules', os.path.join(BASE_DIR, 'node_modules')),
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/

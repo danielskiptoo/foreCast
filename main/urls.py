@@ -7,9 +7,14 @@ app_name='main'
 
 urlpatterns = [
     path('',views.IndexView, name='index'),
-    path('content',views.switch_html, name='farmer'),
-    path('farmer',views.farmerPanel, name='farmer'),
-    path('location',views.getLocation, name='location')
+    path('farmer',views.FarmerView, name='farmer'),
+    path('advisory',views.AdvisoryView, name='advisory-pannel'),
+    path('production',views.ProductionStatsView, name='production-stats'),
+    path('location',views.getLocation, name='location'),
+    path('tempStats', views.LineChartJSONView.as_view()),
+    path('test', views.TestPage, name='test'),
+    path('getData',views.getData, name='regression'),
+
 
 
 ]

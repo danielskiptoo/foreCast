@@ -110,12 +110,7 @@ body{
 .nav-stacked li{
     line-height: 15px;
 }
-#aside{
-    height: 400px;
-    background-color: #ffffff;
-    width: 100%;
-    box-shadow: #122b40;
-}
+
 .right-container{
     padding: 15px 0px;
 
@@ -135,6 +130,7 @@ body{
 }
 #title{
     margin-top: 7px;
+    color: #CC3434;
 }
 .footer {
     position: fixed;
@@ -148,4 +144,23 @@ body{
 }
 table{
     width: 100%;
+}
+#divider{
+    height: 1px;
+    width: 100%;
+    background: #4F0800;
+
+}
+.divider-container{
+    padding: 4px 30px;
+}
+#crop-select{
+    color: #447e9b;
+    border-bottom: 1px solid #9d9d9d;
+    font-family: 'Karla', sans-serif;
+    font-size:17px;
+    margin-left: 15px;
+}
+#form-field-select-3{
+
 }

@@ -1,39 +1,46 @@
-<div class="col-sm-8 left-container">
-                            <div class="graphs" id="production">
-                                <div class="row"><div class="col-sm-12 text-center"><h2>Production Stats by Region</h2></div> </div>
+{% extends 'base.html' %}
+{% load staticfiles %}
+<head>
 
-                            </div>
-                        </div>
-                        <div class="col-sm-4 right-container">
-                            <div id="aside">
-                                <div class="row">
-                                    <div class="col-sm-12 text-center"><h3>Climatic Stats</h3></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-6">April May Rains</div>
-                                    <div class="col-sm-6">122mm</div><br>
-                                    <div class="col-sm-6">May June  Rains</div>
-                                    <div class="col-sm-6">122mm</div><br>
-                                    <div class="col-sm-6">July August Rains</div>
-                                    <div class="col-sm-6">122mm</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12 text-center" id="title">Estimated Crop Yield</div>
+    <title>{% block title %}foreCas{% endblock %}</title>
 
-                                    <div class="col-sm-12">
-                                        <div class="row">
-                                            <div class="col-sm-6 text-info center">Maize: </div>
-                                        <div class="col-sm-6 text-justify"></div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-6 text-info center">Maize: </div>
-                                        <div class="col-sm-6 text-justify"></div>
-                                        </div>
-                                   </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">Productions By Regions</div>
 
-                                </div>
-                            </div>
-                        </div>
+</head>
+{% block main-body %}
+    <div class="col-sm-4 right-container">
+        <div id="aside">
+            <div class="row">
+                <div class="col-sm-12 text-center"><h3>Climatic Stats</h3></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">April May Rains</div>
+                <div class="col-sm-6">122mm</div>
+                <br>
+                <div class="col-sm-6">May June Rains</div>
+                <div class="col-sm-6">122mm</div>
+                <br>
+                <div class="col-sm-6">July August Rains</div>
+                <div class="col-sm-6">122mm</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center" id="title">Estimated Crop Yield</div>
+
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6 text-info center">Maize:</div>
+                        <div class="col-sm-6 text-justify"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-info center">Maize:</div>
+                        <div class="col-sm-6 text-justify"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">Productions By Regions</div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
