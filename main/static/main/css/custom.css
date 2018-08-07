@@ -133,11 +133,12 @@ body{
     color: #CC3434;
 }
 .footer {
-    position: fixed;
+    position: relative;
     height: 60px;
     bottom: 0;
     width: 100%;
     background-color: #1b6d85;
+    margin-top: 25px;
 }
 .prediction{
     margin: 10px 4px;
@@ -163,4 +164,15 @@ table{
 }
 #form-field-select-3{
 
+}
+#navBar{
+    width: 100%;
+    height: 30px;
+    padding: 4px 15px;
+    background: rgba(105,227,129,0.99);
+
+}
+#bottom{
+    padding-left: 0px;
+    padding-right: 0px;
 }

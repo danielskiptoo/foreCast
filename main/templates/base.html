@@ -19,6 +19,7 @@
     <script type="text/javascript" src="{% static 'js/Chart.min.js' %}"></script>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'main/font-awesome/4.5.0/css/font-awesome.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/dataTables.bootstrap4.min.css' %}">
     {% block head %}
 
     {% endblock %}
@@ -40,22 +41,23 @@
         </div>
 
         <div class="navbar-buttons navbar-header pull-right  " role="navigation">
-            <ul class="nav ace-nav" style="">
-                <li class="light-blue dropdown-modal user-min">
-                    <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="{% static 'main/images/user.jpg' %}" alt="User's  Photo">
-                        <span class="user-info">
+            {% if request.user.is_authenticated %}
+                <ul class="nav ace-nav" style="">
+                    <li class="light-blue dropdown-modal user-min">
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                            <img class="nav-user-photo" src="{% static 'main/images/user.jpg' %}" alt="User's  Photo">
+                            <span class="user-info">
                                                                 <small></small>
                                                                                                                         </span>
-                        <i class="ace-icon fa fa-caret-down" style="color: #fff;"></i>
-                    </a>
+                            <i class="ace-icon fa fa-caret-down" style="color: #fff;"></i>
+                        </a>
 
-                    <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-                        {% if request.user.is_authenticated %}
+                        <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+
                             <li>
                                 <a href="#">
                                     <i class="fa fa-user"></i>
-                                    Welcome Admin
+                                    {{ user.username }}
                                 </a>
                             </li>
                             <li class="divider"></li>
@@ -74,27 +76,17 @@
                                     Logout
                                 </a>
                             </li>
-                        {% else %}
-                            <li>
-                                <a href="{% url 'login' %}">
-                                    <i class=" glyphicon glyphicon-arrow-down"></i>
-                                    Login
-                                </a>
-                            </li>
 
-                            <li class="divider"></li>
 
-                            <li>
-                                <a href="{% url 'register' %}" target="_self">
-                                    <i class="   glyphicon glyphicon-user"></i>
-                                    Signup
-                                </a>
-                            </li>
-                        {% endif %}
-
-                    </ul>
-                </li>
-            </ul>
+                        </ul>
+                    </li>
+                </ul>
+            {% else %}
+                <div style="margin-top: 8px;">
+                    <a href="{% url 'login' %}"> <button class="btn btn-default"><i class=" fa fa-sign-in"></i>Login</button></a>
+                    <a href="{% url 'register' %}"> <button class="btn btn-default"><i class=" fa fa-user-plus"></i> Sign Up</button></a>
+                </div>
+            {% endif %}
         </div>
 
 
@@ -119,8 +111,8 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/"><span class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;Dashboard</a>
                 </li>
-                <li><a href="/production"><span class="glyphicon glyphicon-stats"></span>
-                    Production Stats</a></li>
+{#                <li><a href="/production"><span class="glyphicon glyphicon-stats"></span>#}
+{#                    Production Stats</a></li>#}
                 <li><a href="/farmer"><span class="glyphicon glyphicon-grain"></span> Farmer
                     Dashboard</a></li>
                 <li><a href="/advisory"><span class="glyphicon glyphicon-signal"></span> Advisory
@@ -141,8 +133,8 @@
                         <li class="active" id="active"><a href="/"><span
                                 class="glyphicon glyphicon-dashboard"></span>Dashboard</a>
                         </li>
-                        <li><a href="/production"><span class="glyphicon glyphicon-stats"></span>
-                            Production Statistics</a></li>
+{#                        <li><a href="/production"><span class="glyphicon glyphicon-stats"></span>#}
+{#                            Production Statistics</a></li>#}
                         <li><a href="/farmer"><span class="glyphicon glyphicon-grain"></span>
                             Farmer
                             Dashboard</a></li>
@@ -191,6 +183,8 @@
 <script type="text/javascript" src="{% static 'main/js/chosen.jquery.js' %}"></script>
 <script type="text/javascript" src="{% static 'main/js/ace.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'main/js/ace-elements.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/jquery.dataTables.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/jquery.dataTables.bootstrap.min.js' %}"></script>
 
 <script>
 

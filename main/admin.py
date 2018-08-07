@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import csv_Data,Crop_requirements,Crop_Seasons
+from .models import csv_Data, Crop_Seasons, Crop_requirements
 from django.contrib.admin.models import LogEntry
 
 
@@ -11,7 +11,7 @@ class csv_Data(admin.ModelAdmin):
 
 @admin.register(Crop_requirements)
 class Crop_requirements(admin.ModelAdmin):
-    list_display = ('crop_name','temp_requirements','rainfall_requirement','fertilizer_ha')
+    list_display = ('crop_name','temp_max','temp_min','max_rainfall','min_rainfall', 'min_expected_acre', 'max_expected_acre', 'fertilizer_ha')
 
 @admin.register(Crop_Seasons)
 class Crop_Seasons(admin.ModelAdmin):

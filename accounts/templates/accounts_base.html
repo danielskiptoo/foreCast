@@ -1,0 +1,50 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>{% block title %}Foreacast{% endblock %}</title>
+    <!--[if lte IE 8]>
+            <script src="{% static 'js/excanvas.js' %}"></script>
+        <![endif]-->
+    <link rel="shortcut icon" href="{% static 'main/images/fav.ico' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/highcharts.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/custom.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/pnotify/pnotify.custom.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/bootstrap-chosen.css' %}">
+    <script type="text/javascript" src="{% static 'js/Chart.min.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'main/font-awesome/4.5.0/css/font-awesome.min.css' %}"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block accounts_body %}
+{% endblock %}
+</body>
+<script type="text/javascript" src="{% static 'main/js/jquery-3.3.1.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/highcharts.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/main.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/pnotify/pnotify.custom.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/pnotify/custome.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/chosen.jquery.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/ace.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/ace-elements.min.js' %}"></script>
+
+<script>
+
+    $(function () {
+        $('.chosen-select').chosen();
+        $('.chosen-select-deselect').chosen({allow_single_deselect: true});
+    });
+
+</script>
+{% block Javascript %}
+{% endblock %}
+</html>

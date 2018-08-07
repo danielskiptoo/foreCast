@@ -114,10 +114,10 @@
                 {% for crop in crop_req %}
                     <tr class="success">
                         <td>{{ crop.crop_name }}</td>
-                        <td>{{ crop.rainfall_requirement }}</td>
-                        <td>{{ crop.temp_requirements }} &deg; C</td>
+                        <td>{{ crop.temp_min }}-{{ crop.temp_max }} &deg; C</td>
+                        <td>{{ crop.min_rainfall }}-{{ crop.max_rainfall }} mm</td>
                         <td>{{ crop.fertilizer_ha }}</td>
-                        <td>27bags</td>
+                        <td>{{ crop.min_expected_acre }}-{{ crop.max_expected_acre }}</td>
                     </tr>
                 {% endfor %}
 
@@ -135,7 +135,10 @@
             <div id="googleMap" style="height: 400px; width: 100%;"></div>
 
             </div>
-        <div class="col-sm-4" style="background: rgba(68,227,9,0.99); height: 100px">
+        <div class="col-sm-4" style=" height: 100px">
+            <div class="row">
+                <div class="col-sm-12 text-centre">Estimated Crop Yields</div>
+            </div>
 
         </div>
     </div>

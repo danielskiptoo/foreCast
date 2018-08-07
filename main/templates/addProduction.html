@@ -1,0 +1,61 @@
+{% extends 'accounts_base.html' %}
+{% load bootstrap3 %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Add Production{% endblock %}</title>
+
+</head>
+{% block accounts_body %}
+    <div class="header forms text-center" style="height: 70px">
+    <h3><a href="/" style=" color: #F5DD5D; font-size: 22px"> ForeCast</a></h3>
+    </div>
+
+                <div id="loginbox" style="margin-top:25px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-sm-5 text-left">
+                                    <a href="{%  url 'farmer' %}"> <i class="fa fa-arrow-left"></i>Back</a>
+                                </div>
+                                <div class="col-sm-7 text-left">
+                                    <div class="panel-title">Add Production</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div style="padding-top:5px" class="panel-body">
+                            <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                            <form id="loginform" class="form-horizontal" method="post" style="padding: 15px">
+                                     {% csrf_token %}
+
+                                    {%  include 'form_template.html' %}
+
+                                <div style="margin-top:10px" class="form-group">
+                                    <!-- Button -->
+                                    <div class="col-sm-12 controls">
+                                        <button type="submit" id="btn-login" href="#" class="btn btn-success" >Register </button>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-12 control">
+                                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+                                             Have an account!
+                                            <a href="{% url 'login' %}" >
+                                                Login Here
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+{% endblock %}
+
+</html>

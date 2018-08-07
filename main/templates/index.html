@@ -18,47 +18,83 @@
         </div>
 
     </div>
-    <div class="main">
-        <div class="row mid">
-            <div class="col-sm-6 left-container">
-                <div class="row" style="margin-top:15px; padding: 8px 20px;">
-                    <div class="col-sm-6 text-right" style="padding-top: 8px;">
-                        <label>
-                            Choose Crop
-                        </label>
-                    </div>
-                    <div class="col-sm-6">
-                        <select data-placeholder="Choose Crop" class="chosen-select" id="crop-selector"
-                                tabindex="7">
-                            <option value=""></option>
-                            <option value="maize">Maize Crop</option>
-                            <option value="wheat">Wheat Crop</option>
+    <div class="main" style="background-image: url('{% static 'main/images/b1.jpg' %}')">
+    <div class="row mid">
+    <div class="col-sm-6 left-container">
+        <div class="row" style="margin-top:15px; padding: 8px 20px;">
+            <div class="col-sm-6 text-right" style="padding-top: 8px;">
+                <label>
+                    Choose Crop
+                </label>
+            </div>
+            <div class="col-sm-6">
+                <select data-placeholder="Choose Crop" class="chosen-select" id="crop-selector"
+                        tabindex="7">
+                    <option value=""></option>
+                    <option value="maize">Maize Crop</option>
+                    <option value="wheat">Wheat Crop</option>
+                </select>
 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" id="predicted_yield" style="height: 350px">
 
-                        </select>
+            </div>
+        </div>
 
-                    </div>
-                </div>
+    </div>
+
+    <div class="col-sm-6 right-container">
+        <div id="aside">
+            <div id="temp" style="height: 350px">
             </div>
 
-            <div class="col-sm-6 right-container">
-                <div id="aside">
-                    <div id="temp" style="height: 300px">
-                    </div>
+            <div class="row divider-container">
+                <div id="divider"></div>
+            </div>
+            <div class="row">
 
-                    <div class="row divider-container">
-                        <div id="divider"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 text-center" id="title">
-                            <span>Rainfall Trend of the  region</span></div>
-                    </div>
-
-
-                </div>
             </div>
         </div>
     </div>
+    </div>
+{% endblock %}
+{% block body-bottom %}
+    <div class="row">
+        <div class="col-sm-7" id="bottom">
+            <div class=" col-sm-12" id="key" style="width: 100%; margin-bottom: 30px; margin-top: 25px">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active text-center">
+                        Seasons Key Word
+                    </a>
+                    <div class="row" style="padding-top: 10px">
+                        <div class="col-sm-6">
+                            <a href="#" class="list-group-item list-group-item-action">JanJun- January to Jun </a>
+                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                            <a href="#" class="list-group-item list-group-item-action">JanJun- January to Jun </a>
+                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" class="list-group-item list-group-item-action">JanJun-</a>
+                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                            <a href="#" class="list-group-item list-group-item-action">JanJun- January to Jun </a>
+                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div id="rainfall" style="height: 300px">
+            </div>
+        </div>
+    </div>
+
 {% endblock %}
 {% block Javascript %}
     <script type="text/javascript">
@@ -77,7 +113,67 @@
                 type: 'POST',
                 data: {'crop_name': crop_name, 'csrfmiddlewaretoken': '{{ csrf_token }}'},
                 success: function (data) {
-                    alert(data.result);
+                    dataRe = data;
+
+                    var series = [];
+                    for (i = 0; i < data.length; i++) {
+                        series.push([data[i].key, data[i].value]);
+                    }
+                    console.log(data.result);
+
+                    Highcharts.chart('predicted_yield', {
+                        chart: {
+                            type: 'column'
+                        },
+                        title: {
+                            text: 'Predicted Yield Per Season'
+                        },
+                        subtitle: {
+                            text: 'Source: Linear Regession'
+                        },
+                        xAxis: {
+                            categories: [
+                                'JanJun',
+                                'FebJuly',
+                                'MarAug',
+                                'ApSept',
+                                'MayOct',
+                                'JunNov',
+                                'JulDec',
+                                'AugJan',
+                                'SepFeb',
+                                'OctMar',
+                                'NovApr',
+                                'DecMay'
+                            ],
+                            crosshair: true
+                        },
+                        yAxis: {
+                            min: 0,
+                            title: {
+                                text: 'Productions (90kg Bags)'
+                            }
+                        },
+                        tooltip: {
+                            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                            '<td style="padding:0"><b>{point.y:.1f} bags</b></td></tr>',
+                            footerFormat: '</table>',
+                            shared: true,
+                            useHTML: true
+                        },
+                        plotOptions: {
+                            column: {
+                                pointPadding: 0.2,
+                                borderWidth: 0
+                            }
+                        },
+                        series: [{
+                            name: 'Season',
+                            data: data.result
+
+                        }]
+                    });
 
                 }
 
@@ -114,6 +210,12 @@
                     //align: 'center'
                 }
             },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Temperature in ° C'
+                }
+            },
 
             series: [
                 {
@@ -134,7 +236,46 @@
 
             ]
         });
+
+        {#        This for rainfall#}
+
+        Highcharts.chart('rainfall', {
+
+            title: {
+                text: 'Rainfall Trend Of the Region For one Year',
+
+                style: {
+                    color: '#FF00FF',
+                    fontWeight: 'bold'
+
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Amount of Rainfall(mm/Year)'
+                }
+            },
+
+            xAxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                title: {
+                    text: 'Months'
+                    //align: 'center'
+                }
+            },
+
+            series: [
+                {
+                    name: 'Avg Rainfall',
+                    data: [{% for avgRainfall in avgRainfall %}{{ avgRainfall }}, {% endfor %}]
+
+                }
+
+
+            ]
+        });
     </script>
-
-
+    </div>
+    </div>
 {% endblock %}

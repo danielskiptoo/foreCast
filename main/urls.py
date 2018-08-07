@@ -3,7 +3,6 @@ from django.urls import path
 from . import views
 from .views import *
 
-app_name='main'
 
 urlpatterns = [
     path('',views.IndexView, name='index'),
@@ -14,7 +13,9 @@ urlpatterns = [
     path('tempStats', views.LineChartJSONView.as_view()),
     path('test', views.TestPage, name='test'),
     path('getData',views.getData, name='regression'),
-
+    path('farmer/addFarm', views.CreateFarm.as_view(), name='add_farm'),
+    path('farmer/addExpense', views.AddExpense.as_view(), name='add_expense'),
+    path('farmer/addProduction', views.AddProduction.as_view(), name='add_production'),
 
 
 ]
