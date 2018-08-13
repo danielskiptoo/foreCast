@@ -48,7 +48,7 @@ class SignInView(SuccessURLAllowedHostsMixin, FormView):
 class SignUpView(FormView):
     template_name = 'accounts/register.html'
     form_class = SignUpForm
-    success_url = '/accounts'
+    success_url = '/'
 
     def form_valid(self, form):
         if settings.ENABLE_USER_ACTIVATION:

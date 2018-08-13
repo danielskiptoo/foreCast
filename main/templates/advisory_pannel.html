@@ -1,85 +1,87 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block head %}
- <title>{% block title %}foreCas{% endblock %}</title>
+    <title>{% block title %}foreCas{% endblock %}</title>
 
-<style>
-    #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
+    <style>
+        #map {
+            height: 100%;
+        }
 
-      #description {
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-      }
+        /* Optional: Makes the sample page fill the window. */
 
-      #infowindow-content .title {
-        font-weight: bold;
-      }
+        #description {
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 300;
+        }
 
-      #infowindow-content {
-        display: none;
-      }
+        #infowindow-content .title {
+            font-weight: bold;
+        }
 
-      #map #infowindow-content {
-        display: inline;
-      }
+        #infowindow-content {
+            display: none;
+        }
 
-      .pac-card {
-        margin: 10px 10px 0 0;
-        border-radius: 2px 0 0 2px;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        outline: none;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-        background-color: #fff;
-        font-family: Roboto;
-      }
+        #map #infowindow-content {
+            display: inline;
+        }
 
-      #pac-container {
-        padding-bottom: 12px;
-        margin-right: 12px;
-      }
+        .pac-card {
+            margin: 10px 10px 0 0;
+            border-radius: 2px 0 0 2px;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            outline: none;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+            background-color: #fff;
+            font-family: Roboto;
+        }
 
-      .pac-controls {
-        display: inline-block;
-        padding: 5px 11px;
-      }
+        #pac-container {
+            padding-bottom: 12px;
+            margin-right: 12px;
+        }
 
-      .pac-controls label {
-        font-family: Roboto;
-        font-size: 13px;
-        font-weight: 300;
-      }
+        .pac-controls {
+            display: inline-block;
+            padding: 5px 11px;
+        }
 
-      #pac-input {
-        background-color: #fff;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-        margin-left: 12px;
-        padding: 0 11px 0 13px;
-        text-overflow: ellipsis;
-        width: 400px;
-      }
+        .pac-controls label {
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 300;
+        }
 
-      #pac-input:focus {
-        border-color: #4d90fe;
-      }
+        #pac-input {
+            background-color: #fff;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 300;
+            margin-left: 12px;
+            padding: 0 11px 0 13px;
+            text-overflow: ellipsis;
+            width: 400px;
+        }
 
-      #title {
-        color: #fff;
-        background-color: #4d90fe;
-        font-size: 25px;
-        font-weight: 500;
-        padding: 6px 12px;
-      }
-      #target {
-        width: 345px;
-      }
-</style>
+        #pac-input:focus {
+            border-color: #4d90fe;
+        }
+
+        #title {
+            color: #fff;
+            background-color: #4d90fe;
+            font-size: 25px;
+            font-weight: 500;
+            padding: 6px 12px;
+        }
+
+        #target {
+            width: 345px;
+        }
+    </style>
 {% endblock %}
 
 
@@ -97,123 +99,123 @@
     </div>
 
     <div class="main">
-    <div class="row">
-        <div class="col-sm-12 text-header text-center" style="padding: 12px">Crop Advisory Pannel</div>
-        <div class="col-sm-12 text-center">
-            <table class="table table-responsive col-sm-12">
-                <thead>
-                <tr class="info">
-                    <td>Crop</td>
-                    <td>Raifall Requirement</td>
-                    <td>Temperatures</td>
-                    <td>Fertilizer/Ha</td>
-                    <td>Expected Harvest</td>
-                </tr>
-                </thead>
-                <tbody>
-                {% for crop in crop_req %}
-                    <tr class="success">
-                        <td>{{ crop.crop_name }}</td>
-                        <td>{{ crop.temp_min }}-{{ crop.temp_max }} &deg; C</td>
-                        <td>{{ crop.min_rainfall }}-{{ crop.max_rainfall }} mm</td>
-                        <td>{{ crop.fertilizer_ha }}</td>
-                        <td>{{ crop.min_expected_acre }}-{{ crop.max_expected_acre }}</td>
+        <div class="row">
+            <div class="col-sm-12 text-header text-center" style="padding: 12px">Crop Advisory Pannel</div>
+            <div class="col-sm-12 text-center">
+                <table class="table table-responsive col-sm-12">
+                    <thead>
+                    <tr class="info">
+                        <td>Crop</td>
+                        <td>Raifall Requirement</td>
+                        <td>Temperatures</td>
+                        <td>Fertilizer/Ha</td>
+                        <td>Expected Harvest</td>
                     </tr>
-                {% endfor %}
+                    </thead>
+                    <tbody>
+                    {% for crop in crop_req %}
+                        <tr class="success">
+                            <td>{{ crop.crop_name }}</td>
+                            <td>{{ crop.temp_min }}-{{ crop.temp_max }} &deg; C</td>
+                            <td>{{ crop.min_rainfall }}-{{ crop.max_rainfall }} mm</td>
+                            <td>{{ crop.fertilizer_ha }}</td>
+                            <td>{{ crop.min_expected_acre }}-{{ crop.max_expected_acre }}</td>
+                        </tr>
+                    {% endfor %}
 
 
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-</div>
 {% endblock %}
 {% block body-bottom %}
-    <div class="row" style="margin-bottom: 70px; scroll-padding: 15px;">
-      <div class="col-sm-8 text-center "style="background-color: #ffffff">
-          <input id="pac-input" class="controls " type="text" placeholder="Search Region " style=" border-radius: 2px; margin-bottom: 10px;">
+    <div class="row" style="margin-bottom: 0px;">
+        <div class="col-sm-8 text-center " style="background-color: #ffffff">
+            <input id="pac-input" class="controls " type="text" placeholder="Search Region "
+                   style=" border-radius: 2px; margin-bottom: 10px;">
             <div id="googleMap" style="height: 400px; width: 100%;"></div>
 
-            </div>
-        <div class="col-sm-4" style=" height: 100px">
+        </div>
+        <div class="col-sm-4 text-center">
             <div class="row">
-                <div class="col-sm-12 text-centre">Estimated Crop Yields</div>
+                Estimated Crop Yields
             </div>
-
         </div>
     </div>
 
 {% endblock %}
 {% block Javascript %}
-<script>
- function initAutocomplete() {
-        var map = new google.maps.Map(document.getElementById('googleMap'), {
-          center: {lat: 0.5143, lng: 35.2697},
-          zoom: 13
+    <script>
+        function initAutocomplete() {
+            var map = new google.maps.Map(document.getElementById('googleMap'), {
+                center: {lat: 0.5143, lng: 35.2697},
+                zoom: 13
 
-        });
-        var input = document.getElementById('pac-input');
-        var searchBox = new google.maps.places.SearchBox(input);
-        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+            });
+            var input = document.getElementById('pac-input');
+            var searchBox = new google.maps.places.SearchBox(input);
+            map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
-        // Bias the SearchBox results towards current map's viewport.
-        map.addListener('bounds_changed', function() {
-          searchBox.setBounds(map.getBounds());
-        });
+            // Bias the SearchBox results towards current map's viewport.
+            map.addListener('bounds_changed', function () {
+                searchBox.setBounds(map.getBounds());
+            });
 
-        var markers = [];
-        // Listen for the event fired when the user selects a prediction and retrieve
-        // more details for that place.
-        searchBox.addListener('places_changed', function() {
-          var places = searchBox.getPlaces();
+            var markers = [];
+            // Listen for the event fired when the user selects a prediction and retrieve
+            // more details for that place.
+            searchBox.addListener('places_changed', function () {
+                var places = searchBox.getPlaces();
 
-          if (places.length == 0) {
-            return;
-          }
+                if (places.length == 0) {
+                    return;
+                }
 
-          // Clear out the old markers.
-          markers.forEach(function(marker) {
-            marker.setMap(null);
-          });
-          markers = [];
+                // Clear out the old markers.
+                markers.forEach(function (marker) {
+                    marker.setMap(null);
+                });
+                markers = [];
 
-          // For each place, get the icon, name and location.
-          var bounds = new google.maps.LatLngBounds();
-          places.forEach(function(place) {
-            if (!place.geometry) {
-              console.log("Returned place contains no geometry");
-              return;
-            }
-            var icon = {
-              url: place.icon,
-              size: new google.maps.Size(71, 71),
-              origin: new google.maps.Point(0, 0),
-              anchor: new google.maps.Point(17, 34),
-              scaledSize: new google.maps.Size(25, 25)
-            };
+                // For each place, get the icon, name and location.
+                var bounds = new google.maps.LatLngBounds();
+                places.forEach(function (place) {
+                    if (!place.geometry) {
+                        console.log("Returned place contains no geometry");
+                        return;
+                    }
+                    var icon = {
+                        url: place.icon,
+                        size: new google.maps.Size(71, 71),
+                        origin: new google.maps.Point(0, 0),
+                        anchor: new google.maps.Point(17, 34),
+                        scaledSize: new google.maps.Size(25, 25)
+                    };
 
-            // Create a marker for each place.
-            markers.push(new google.maps.Marker({
-              map: map,
-              icon: icon,
-              title: place.name,
-              position: place.geometry.location
-            }));
+                    // Create a marker for each place.
+                    markers.push(new google.maps.Marker({
+                        map: map,
+                        icon: icon,
+                        title: place.name,
+                        position: place.geometry.location
+                    }));
 
-            if (place.geometry.viewport) {
-              // Only geocodes have viewport.
-              bounds.union(place.geometry.viewport);
-            } else {
-              bounds.extend(place.geometry.location);
-            }
-          });
-          map.fitBounds(bounds);
-        });
-      }
+                    if (place.geometry.viewport) {
+                        // Only geocodes have viewport.
+                        bounds.union(place.geometry.viewport);
+                    } else {
+                        bounds.extend(place.geometry.location);
+                    }
+                });
+                map.fitBounds(bounds);
+            });
+        }
 
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXJsTvI_fsJz1fe4RDZY5XEaQ8KEouS78&region=KE&libraries=places&callback=initAutocomplete"
-         async defer></script>
+            async defer></script>
 {% endblock %}
 
 

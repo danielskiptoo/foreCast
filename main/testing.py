@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from pandas import DataFrame
 from sklearn import datasets, linear_model
 import numpy as np
@@ -69,7 +70,20 @@ import numpy as np
 # print(temperatures)
 # print(rainfall)
 # print(productions)
-print(np.math.ceil(4.5))
+# print(np.math.ceil(4.5))
+
+file_path = "main/static/main/data/"
+colnames = ['month', 'maxTemp', 'minTemp', 'avgRainfall','avgTemp']
+maizePeriod= pd.read_csv(file_path+'maize.csv',names=colnames, skiprows=(1))
+wheatPeriod=pd.read_csv(file_path+'wheat.csv',names=colnames, skiprows=(1))
+avgRainfall = wheatPeriod['avgRainfall'].tolist()
+temperatures = wheatPeriod['avgTemp'].tolist()
+rainfall = wheatPeriod['avgRainfall'].tolist()
+
+
+print(avgRainfall)
+print(temperatures)
+print(rainfall)
 
 
 

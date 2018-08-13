@@ -11,83 +11,105 @@
 
     <div class="header container-fluid">
         <div class="row">
-            <div class="col-sm-6"><h4>Grain Yield Prediction and Advisory</h4></div>
+            <div class="col-sm-6"><h4 style="color: #ffffff;">2018  Approximate Crop Yield In Uasin Gishu County</h4></div>
+            <div class="col-sm-6">
+        <h4 style="color: #ffffff;">Current Climate Conditions in Uasin Gishu</h4>
         </div>
-        <div class="col-sm-6">
+        </div>
 
-        </div>
 
     </div>
     <div class="main" style="background-image: url('{% static 'main/images/b1.jpg' %}')">
     <div class="row mid">
-    <div class="col-sm-6 left-container">
-        <div class="row" style="margin-top:15px; padding: 8px 20px;">
-            <div class="col-sm-6 text-right" style="padding-top: 8px;">
-                <label>
-                    Choose Crop
-                </label>
-            </div>
-            <div class="col-sm-6">
-                <select data-placeholder="Choose Crop" class="chosen-select" id="crop-selector"
-                        tabindex="7">
-                    <option value=""></option>
-                    <option value="maize">Maize Crop</option>
-                    <option value="wheat">Wheat Crop</option>
-                </select>
+        <div class="col-sm-6 left-container">
+            <div class="row" style="margin-top:15px; padding: 8px 20px;">
+                <div class="col-sm-6 text-right" style="padding-top: 8px;">
+                    <label>
+                        Choose Crop
+                    </label>
+                </div>
+                <div class="col-sm-6">
+                    <select data-placeholder="Choose Crop" class="chosen-select" id="crop-selector"
+                            tabindex="7">
+                        <option value=""></option>
+                        <option value="maize">Maize Crop</option>
+                        <option value="wheat">Wheat Crop</option>
+                    </select>
 
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12" id="predicted_yield" style="height: 350px">
-
-            </div>
-        </div>
-
-    </div>
-
-    <div class="col-sm-6 right-container">
-        <div id="aside">
-            <div id="temp" style="height: 350px">
-            </div>
-
-            <div class="row divider-container">
-                <div id="divider"></div>
+                </div>
             </div>
             <div class="row">
+                <div class="panel panel-default" style=" margin-right:35px; margin-left: 14px">
+                    <div class="panel-heading">Estimated Yield Based On the Current  Climatic Conditions </div>
+                </div>
+                <div class="panel-body" style="background:#fff; height:200px; margin-right:35px; margin-left: 14px ">
+                    <div class="row ">
+
+                        <div class="col-sm-12 text-center"><h4 style="font-size: 22px;">Estimated Crop Yield As per Climate</h4></div>
+                        <div class="col-sm-12" style="margin-top: 30px;">
+                            <p><span id="max">
+
+                            </span></p>
+
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
+
         </div>
-    </div>
+
+        <div class="col-sm-6 right-container">
+            <div id="aside">
+                <div id="temp" style="height: 350px">
+                </div>
+
+                <div class="row divider-container">
+                    <div id="divider"></div>
+                </div>
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
 {% block body-bottom %}
     <div class="row">
-        <div class="col-sm-7" id="bottom">
-            <div class=" col-sm-12" id="key" style="width: 100%; margin-bottom: 30px; margin-top: 25px">
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action active text-center">
-                        Seasons Key Word
-                    </a>
-                    <div class="row" style="padding-top: 10px">
-                        <div class="col-sm-6">
-                            <a href="#" class="list-group-item list-group-item-action">JanJun- January to Jun </a>
-                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                            <a href="#" class="list-group-item list-group-item-action">JanJun- January to Jun </a>
-                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="#" class="list-group-item list-group-item-action">JanJun-</a>
-                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                            <a href="#" class="list-group-item list-group-item-action">JanJun- January to Jun </a>
-                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                        </div>
-                    </div>
+        <div class="col-sm-7" id="bottom" style=" padding-top: 25px; height: 280px">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="row text-center">Crop Advisory As Per Kenya Seed Company</div>
                 </div>
+                <div class="panel-body">
+                    <table class="table table-responsive col-sm-12">
+                    <thead>
+                    <tr class="info">
+                        <td>Crop</td>
+                        <td>Raifall Requirement/year</td>
+                        <td>Average Temperatures/Year</td>
+                        <td>Fertilizer/Acre</td>
+                        <td>Expected Harvest in Bags</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for crop in crop_req %}
+                        <tr class="success">
+                            <td>{{ crop.crop_name }}</td>
+                            <td>{{ crop.temp_min }}-{{ crop.temp_max }} &deg; C</td>
+                            <td>{{ crop.min_rainfall }}-{{ crop.max_rainfall }} mm</td>
+                            <td>{{ crop.fertilizer_ha }}</td>
+                            <td>{{ crop.min_expected_acre }}-{{ crop.max_expected_acre }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                    </table>
+                </div>
+
+
             </div>
+
         </div>
         <div class="col-sm-5">
             <div id="rainfall" style="height: 300px">
@@ -109,71 +131,113 @@
         $('#crop-selector').on('change', function () {
             var crop_name = this.value;
             $.ajax({
-                url: "getData",
+                url: "main/getData",
                 type: 'POST',
                 data: {'crop_name': crop_name, 'csrfmiddlewaretoken': '{{ csrf_token }}'},
                 success: function (data) {
                     dataRe = data;
-
                     var series = [];
+                    var temp = [];
+                    var rain = [];
                     for (i = 0; i < data.length; i++) {
                         series.push([data[i].key, data[i].value]);
                     }
-                    console.log(data.result);
+                    var maxReturned=parseFloat(data.maxProduce)
+                    var minReturned=parseFloat(data.minProduce)
+                    var filalMax=(maxReturned).toFixed(2);
+                    var filalMin=(minReturned).toFixed(2);
+                    $('#max').html(" <div  style='paddind: 12px 15px;'><h3 style='color: #4286f4; line-height: 30px;'> According to current climatic conditions, we expect <b>"+filalMin+" </b> to <b>"+filalMax+"</b>  Bags Per Acre this Year</h3></div>")
+{#                    console.log(data.result);#}
+                    console.log(data.maxProduce);
+                    console.log(data.minProduce);
+                    console.log(data.mintemp);
+                    console.log(data.rain);
 
-                    Highcharts.chart('predicted_yield', {
-                        chart: {
-                            type: 'column'
-                        },
+                    Highcharts.chart('temp', {
+
                         title: {
-                            text: 'Predicted Yield Per Season'
+                            text: 'Temperature Trend As Of Current Climatic Conditions',
+
+                            style: {
+                                color: '#FF00FF',
+                                fontWeight: 'bold'
+
+                            }
                         },
-                        subtitle: {
-                            text: 'Source: Linear Regession'
-                        },
+
                         xAxis: {
-                            categories: [
-                                'JanJun',
-                                'FebJuly',
-                                'MarAug',
-                                'ApSept',
-                                'MayOct',
-                                'JunNov',
-                                'JulDec',
-                                'AugJan',
-                                'SepFeb',
-                                'OctMar',
-                                'NovApr',
-                                'DecMay'
-                            ],
-                            crosshair: true
+                            categories: data.months,
+                            title: {
+                                text: 'Months'
+                                //align: 'center'
+                            }
                         },
                         yAxis: {
                             min: 0,
                             title: {
-                                text: 'Productions (90kg Bags)'
+                                text: 'Temperature in ° C'
                             }
                         },
-                        tooltip: {
-                            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-                            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                            '<td style="padding:0"><b>{point.y:.1f} bags</b></td></tr>',
-                            footerFormat: '</table>',
-                            shared: true,
-                            useHTML: true
-                        },
-                        plotOptions: {
-                            column: {
-                                pointPadding: 0.2,
-                                borderWidth: 0
-                            }
-                        },
-                        series: [{
-                            name: 'Season',
-                            data: data.result
 
-                        }]
+                        series: [
+                            {
+                                name: 'maxTemp',
+                                data: data.maxtemp
+
+                            },
+                            {
+                                name: 'avgTemp',
+                                data: data.temp
+
+                            },
+                            {
+                                name: 'minTemp',
+                                data: data.mintemp
+
+                            }
+
+                        ]
                     });
+                    {#                    rainfall Function#}
+
+
+                    Highcharts.chart('rainfall', {
+
+                        title: {
+                            text: 'Rainfall Trend Of the Region as Of Current Conditions',
+
+                            style: {
+                                color: '#FF00FF',
+                                fontWeight: 'bold'
+
+                            }
+                        },
+                        yAxis: {
+                            min: 0,
+                            title: {
+                                text: 'Amount of Rainfall(mm/Year)'
+                            }
+                        },
+
+                        xAxis: {
+                            categories: data.months,
+                            title: {
+                                text: 'Months'
+                                //align: 'center'
+                            }
+                        },
+
+                        series: [
+                            {
+                                name: 'Avg Rainfall',
+                                data: data.rain
+
+                            }
+
+
+                        ]
+                    });
+
 
                 }
 
@@ -191,90 +255,59 @@
           }){% endcomment %}
 
 
-        Highcharts.chart('temp', {
 
-            title: {
-                text: 'Tempearture Of the Region For one Year',
-
-                style: {
-                    color: '#FF00FF',
-                    fontWeight: 'bold'
-
-                }
-            },
-
-            xAxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-                title: {
-                    text: 'Months'
-                    //align: 'center'
-                }
-            },
-            yAxis: {
-                min: 0,
-                title: {
-                    text: 'Temperature in ° C'
-                }
-            },
-
-            series: [
-                {
-                    name: 'maxTemp',
-                    data: [{% for maxTemp in maxTemp %}{{ maxTemp }}, {% endfor %}]
-
-                },
-                {
-                    name: 'avgTemp',
-                    data: [{% for avgTemp in avgTemp %}{{ avgTemp }}, {% endfor %}]
-
-                },
-                {
-                    name: 'minTemp',
-                    data: [{% for minTemp in minTemp %}{{ minTemp }}, {% endfor %}]
-
-                }
-
-            ]
-        });
 
         {#        This for rainfall#}
 
-        Highcharts.chart('rainfall', {
 
-            title: {
-                text: 'Rainfall Trend Of the Region For one Year',
+        {#                    Highcharts.chart('predicted_yield', {#}
+        {#                        chart: {#}
+        {#                            type: 'column'#}
+        {#                        },#}
+        {#                        title: {#}
+        {#                            text: 'Predicted Yield Per Season'#}
+        {#                        },#}
+        {#                        subtitle: {#}
+        {#                            text: 'Source: Linear Regession'#}
+        {#                        },#}
+        {#                        xAxis: {#}
+        {#                            categories: [#}
+        {#                                'March September',#}
+        {#                                'April October',#}
+        {##}
+        {#                            ],#}
+        {#                            crosshair: true#}
+        {#                        },#}
+        {#                        yAxis: {#}
+        {#                            min: 0,#}
+        {#                            title: {#}
+        {#                                text: 'Productions (90kg Bags)'#}
+        {#                            }#}
+        {#                        },#}
+        {#                        tooltip: {#}
+        {#                            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',#}
+        {#                            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +#}
+        {#                            '<td style="padding:0"><b>{point.y:.1f} bags</b></td></tr>',#}
+        {#                            footerFormat: '</table>',#}
+        {#                            shared: true,#}
+        {#                            useHTML: true#}
+        {#                        },#}
+        {#                        plotOptions: {#}
+        {#                            column: {#}
+        {#                                pointPadding: 0.2,#}
+        {#                                borderWidth: 0#}
+        {#                            }#}
+        {#                        },#}
+        {#                        series: [{#}
+        {#                            name: 'Season',#}
+        {#                            data: data.result#}
+        {##}
+        {#                        }]#}
+        {#                    });#}
 
-                style: {
-                    color: '#FF00FF',
-                    fontWeight: 'bold'
-
-                }
-            },
-            yAxis: {
-                min: 0,
-                title: {
-                    text: 'Amount of Rainfall(mm/Year)'
-                }
-            },
-
-            xAxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-                title: {
-                    text: 'Months'
-                    //align: 'center'
-                }
-            },
-
-            series: [
-                {
-                    name: 'Avg Rainfall',
-                    data: [{% for avgRainfall in avgRainfall %}{{ avgRainfall }}, {% endfor %}]
-
-                }
+        {#                    Rainfall Function#}
 
 
-            ]
-        });
     </script>
     </div>
     </div>

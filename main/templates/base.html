@@ -115,8 +115,11 @@
 {#                    Production Stats</a></li>#}
                 <li><a href="/farmer"><span class="glyphicon glyphicon-grain"></span> Farmer
                     Dashboard</a></li>
-                <li><a href="/advisory"><span class="glyphicon glyphicon-signal"></span> Advisory
-                    Panel</a></li>
+                {% if request.user.is_authenticated %}
+                              <li><a href="/farmer"><span class="glyphicon glyphicon-grain"></span>
+                        {% endif %}
+{#                <li><a href="/advisory"><span class="glyphicon glyphicon-signal"></span> Advisory#}
+{#                    Panel</a></li>#}
             </ul>
         </div>
     </div>
@@ -135,12 +138,16 @@
                         </li>
 {#                        <li><a href="/production"><span class="glyphicon glyphicon-stats"></span>#}
 {#                            Production Statistics</a></li>#}
-                        <li><a href="/farmer"><span class="glyphicon glyphicon-grain"></span>
-                            Farmer
+                         {% if request.user.is_authenticated %}
+                              <li><a href="/farmer"><span class="glyphicon glyphicon-grain"></span>
+                              Farmer
                             Dashboard</a></li>
-                        <li><a href="/advisory"><span class="glyphicon glyphicon-signal"></span>
-                            Advisory
-                            Panel</a></li>
+                        {% endif %}
+
+
+{#                        <li><a href="/advisory"><span class="glyphicon glyphicon-signal"></span>#}
+{#                            Advisory#}
+{#                            Panel</a></li>#}
                     </ul>
                     <br>
                 </div>

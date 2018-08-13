@@ -18,8 +18,11 @@ class FarmForm(forms.ModelForm):
             visible.field.widget.attrs['class'] = 'form-control'
     class Meta:
         model=Farm
-        fields = ['name', 'type', 'size']
+        fields = ['name', 'type', 'size','location']
         exclude = ["farmer"]
+
+
+
 class ExpenseForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super(ExpenseForm, self).__init__(*args, **kwargs)
@@ -27,7 +30,9 @@ class ExpenseForm(forms.ModelForm):
             visible.field.widget.attrs['class'] = 'form-control'
     class Meta:
         model=Expenses
-        fields=['farm','amount','description']
+        fields=['farm','amount', 'description']
+
+
 
 class ProductionForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
@@ -37,6 +42,8 @@ class ProductionForm(forms.ModelForm):
     class Meta:
         model=farm_production
         fields=['farm','year','production_amount', 'dateRecorded']
+        exclude = ["farmer"]
+
 
 
 
