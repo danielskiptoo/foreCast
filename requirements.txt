@@ -21,7 +21,7 @@ gunicorn==19.7.1
 hyperlink==18.0.0
 matplotlib==2.1.2
 numpy==1.14.0
-openpyxl==1.8.6
+openpyxl==2.4.2
 pandas==0.14.0
 pandas-highcharts==0.5.2
 parsel==1.4.0
