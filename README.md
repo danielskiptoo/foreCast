@@ -3,11 +3,8 @@ This app was my final year project which is a platform meant to assist farmer ge
 to make decision on best crop to grow during a certain period
 
 
-##Modules
-staff
-results and
-finances.
-It currently doesn't allow students/staff to login.
+## Modules
+
 
 Demo
 Demo stopped working on https://forecas.herokuapp.com since Heroku has stopped their free version.
